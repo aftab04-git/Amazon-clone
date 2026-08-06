@@ -1,5 +1,5 @@
 // src/services/api.js
-const API_URL = 'http://localhost:5000/api';
+const API_URL = "https://amazon-clone-backend.onrender.com";
 
 // ========== Helper ==========
 const getToken = () => localStorage.getItem('token');
