@@ -1,0 +1,111 @@
+.otp-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.otp-container h2 {
+    color: #0f1111;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.otp-container p {
+    color: #565959;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.otp-inputs {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.otp-input {
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+.otp-input:focus {
+    border-color: #febd69;
+    box-shadow: 0 0 0 3px rgba(254, 189, 105, 0.2);
+}
+
+.otp-input:disabled {
+    background: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.verify-btn {
+    width: 100%;
+    padding: 14px;
+    background: #ffd814;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.2s;
+}
+
+.verify-btn:hover:not(:disabled) {
+    background: #f7ca00;
+}
+
+.verify-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.resend-section {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.resend-btn {
+    background: none;
+    border: none;
+    color: #0066c0;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.resend-btn:hover:not(:disabled) {
+    color: #c45500;
+}
+
+.resend-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.timer {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.error-message {
+    color: #b12704;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #fff0f0;
+    border-radius: 4px;
+}
